@@ -1,0 +1,117 @@
+.page{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.cMoreButton{
+    font-size: 12px;
+    padding:4px 80px;
+    border-radius: 4px;
+}
+
+.columnBox{
+    flex-direction: column;
+}
+
+.content{
+    margin-left: 10%;
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.content2{
+    margin-left: 15%;
+    width: 70%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.eventImages{
+    width: 40%;
+    height: 30%;
+    margin-right:10px;
+    margin-bottom: 2%;
+}
+
+.eventImagesBox{
+    width: 50%;
+    height:50%;
+}
+
+.fullLine{
+    width:100%;
+    justify-content: space-between;
+}
+
+.horizontalCenter{
+    flex-direction: column;
+    align-self: center;
+}
+
+.placeholderImages{
+    width: 25%;
+    height: 25%;
+}
+
+.rightAlign{
+    justify-content: flex-end;
+}
+
+.sameLineBox{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.spaced{
+    justify-content: space-between;
+}
+
+.subButton{
+    padding: 10px 8px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.verticalCenter{
+    justify-content: center;
+}
+
+#videoPlaceholder{
+    width:60%;
+    height:30vh;
+    margin: 2%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+
+a{
+    padding-right: 5px
+}
+
+h1{
+    font-size: 48px;
+    margin: 2%;
+    margin-left: 0;
+}
+
+h2{
+    font-size: 36px;
+    margin: 2%;
+    margin-left: 0;
+}
+
+p{
+    font-family: sans-serif;
+    margin: 4px;
+}
