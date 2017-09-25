@@ -4,11 +4,13 @@
   "description": "Mandatory Exercise 1 - Kea Events Site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Andreas Pedersen",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "heroku-cli": "^6.14.25"
   }
 }

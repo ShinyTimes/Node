@@ -12,9 +12,9 @@ app.get('/keaevents', function(req, res){
     res.sendFile('/keaevents.html', options);
 });
 
-/*app.get('/', function(req, res){
+app.get('/', function(req, res){
     res.sendFile('/keaevents.html', options);
-});*/
+});
 
 app.get('/about', function(req, res){
     res.sendFile('/about.html', options);
