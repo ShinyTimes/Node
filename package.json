@@ -1,0 +1,14 @@
+{
+  "name": "mandatoryexercise",
+  "version": "1.0.0",
+  "description": "Mandatory Exercise 1 - Kea Events Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Pedersen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
