@@ -4,7 +4,7 @@ app.use(express.static(__dirname + '/wwwroot'));
 
 var options = { root: __dirname + '/wwwroot'}
 
-app.listen(5000, function(){
+app.listen(process.env.PORT || 5000, function(){
     console.log('Listening on port 5000!')
 });
 
@@ -19,4 +19,3 @@ app.get('/', function(req, res){
 app.get('/about', function(req, res){
     res.sendFile('/about.html', options);
 });
-
